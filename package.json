@@ -1,0 +1,23 @@
+{
+  "name": "chatcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshul7417/ChatCat-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshul7417/ChatCat-App/issues"
+  },
+  "homepage": "https://github.com/Anshul7417/ChatCat-App#readme",
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  }
+}

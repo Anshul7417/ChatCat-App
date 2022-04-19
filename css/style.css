@@ -20,9 +20,12 @@ html {
 
 .container {
     max-width: 85rem;
-    background-color: red;
+    border: 2px solid black;
     margin: auto;
     height: 55rem;
+    padding: 3.3rem;
+    overflow-y: auto;
+    margin-bottom: 2.3rem;
 }
 
 .message {
@@ -55,4 +58,9 @@ html {
     border: 2px solid black;
     border-radius: 0.6rem;
     height: 3.4rem;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
 }
