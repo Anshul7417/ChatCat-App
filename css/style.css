@@ -17,6 +17,14 @@ html {
     height: 4rem;
 }
 
+h1{
+    margin-top: 0.8rem ;
+    margin-bottom: 1.2rem;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+
 
 .container {
     max-width: 85rem;
@@ -60,6 +68,8 @@ html {
     height: 3.4rem;
 }
 .btn{
+    height: 19%;
+    width: 9%;
     cursor: pointer;
     border: 2px solid black;
     border-radius: 6px;
