@@ -33,7 +33,7 @@ const username = prompt("Enter your name to join to Chat-Cat");
 socket.emit('new-user-joined', username);
 
 socket.on('user-joined', username => {
-    append(`${username} joined the chat`, 'right')
+    append(`${username} joined the chat`, 'left')
 })
 
 socket.on('receive', data => {
