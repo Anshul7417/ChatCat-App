@@ -45,10 +45,12 @@ h1 {
 
 .message {
     background-color: grey;
-    width: 20rem;
+    width: 25rem;
     padding: 1rem;
     margin: 1.7rem 1.2rem;
     border-radius: 1rem;
+    font-size: 1.3rem;
+    word-wrap: break-word;   
 }
 
 .left {
@@ -108,7 +110,7 @@ p{
     }
 
     #messageInp {
-        width: 95%;
+        width: 79%;
     }
 
     .btn {
