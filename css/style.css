@@ -26,8 +26,7 @@ h1 {
     color: white;
     margin-top: 0.8rem;
     margin-bottom: 1.2rem;
-    font-size: 3rem;
-   
+    font-size: 3.4rem;
     text-align: center;
 }
 
@@ -49,8 +48,9 @@ h1 {
     padding: 1rem;
     margin: 1.7rem 1.2rem;
     border-radius: 1rem;
-    font-size: 1.3rem;
-    word-wrap: break-word;   
+    font-size: 1.4rem;
+    word-wrap: break-word;
+    color: #fff;
 }
 
 .left {
@@ -92,7 +92,7 @@ h1 {
     background-color: rgb(96, 195, 94);
 }
 
-p{
+p {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
     font-size: 2rem;
