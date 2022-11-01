@@ -56,12 +56,14 @@ h1 {
 .left {
     float: left;
     clear: both;
+    background-color: rgba(246, 61, 61, 0.925);
 }
 
 
 .right {
     float: right;
     clear: both;
+    background-color: rgb(73, 222, 73);
 }
 
 #send-container {
