@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Anshul7417/ChatCat-App#readme",
   "dependencies": {
-    "socket.io": "^4.4.1"
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.5.3"
   }
 }
