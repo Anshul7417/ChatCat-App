@@ -147,7 +147,7 @@ p {
     }
 
     .message{
-        margin: 1.7rem 1.2rem;
+        margin: 1.7rem -1.8rem;
         width: 23rem;
     }
 }
