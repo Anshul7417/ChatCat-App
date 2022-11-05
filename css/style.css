@@ -145,4 +145,9 @@ p {
         width: 18%;
         height: 3rem;
     }
+
+    .message{
+        margin: 1.7rem 1.2rem;
+        width: 23rem;
+    }
 }
