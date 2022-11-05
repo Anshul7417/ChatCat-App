@@ -5,6 +5,7 @@ const http = require('http');
 const server = http.createServer(app);   //creating http server
 const { Server } = require('socket.io');
 const io = new Server(server);    //it is creating socket
+const port = process.env.PORT || 8080;
 
 app.use(express.static(path.join(__dirname, ''))); // it is serving full folder
 
@@ -31,6 +32,6 @@ io.on('connection', (socket) => {      // it runs when connection is made.it is 
     });
 });
 
-server.listen(8080, ()=>{
+server.listen(port, ()=>{
     console.log('Server started bro...');
 });
