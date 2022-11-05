@@ -23,8 +23,22 @@ body {
     flex-direction: column;
 }
 
+
+.username{
+    width: 30rem;
+    padding: 5px 0px;
+   
+}
+
 .login-button {
     margin-top: 10px;
+    background-color: rgb(73, 222, 73);
+    color: black;
+    width: 6rem;
+    padding: 4px 0px;
+    font-size: 17px;
+    cursor: pointer;
+    
 }
 
 .icon {

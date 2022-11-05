@@ -33,5 +33,5 @@ io.on('connection', (socket) => {      // it runs when connection is made.it is 
 });
 
 server.listen(port, ()=>{
-    console.log('Server started bro...');
+    console.log('Server connected');
 });
