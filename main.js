@@ -25,7 +25,7 @@ function onUserNameSubmit() {
         chatDiv.classList.remove('hide');
         socket.emit('new-user-joined', user);
     } else {
-        alert('Username Field cannot be null');
+        alert('Username Field cannot be empty');
     }
 }
 
